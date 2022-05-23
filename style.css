@@ -29,6 +29,13 @@
     display: inline;
     padding: 15px;
 }
+.body .header ul li a{
+    color: white;
+    text-decoration: none;
+}
+.body .header ul li a:hover{
+    color: blue;
+}
 .body .header .name{
     display: none;
     
