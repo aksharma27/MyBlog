@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body .header{
+    position: fixed;
+    /* background-attachment: fixed; */
+    color: white;
+    background-color: rgb(48, 47, 47);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.body .header ul li:hover{
+    cursor: pointer;
+    background-color: gray;
+    transition: .25s;
+}
+.body .header ul li{
+    /* word-spacing: 17px; */
+    letter-spacing: 2px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    /* float: right; */
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+.body .header .name{
+    display: none;
+    
+}
+.name{
+    display: none;
+}
+.articles{
+   margin-bottom: 5px;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 17%;
+    /* border: 2px solid rebeccapurple; */
+    margin-right: 72%;
+    /* padding-right: 70%; */
+    /* background-color: green; */
+    /* padding-right: 3px; */
+    padding-left: 8px;
+}
+.articles .artheader{
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-bottom: 7px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .body .header ul li{
+        font-size: medium;
+        font-family: 'PT Sans Narrow', sans-serif;
+        /* float: right; */
+        list-style: none;
+        display: inline;
+        padding: 15px;
+    }
+    .articles{
+        padding-top: 3.6%;
+    }
+    .name{
+        background-attachment: scroll;
+        background-color: rgb(236, 226, 207);
+        /* border: 2px solid rebeccap   urple; */
+        margin-top: 5px;
+        font-size: x-large;
+        font-family: 'BIZ UDPGothic', sans-serif;
+        display: flex;
+        flex-direction: row;
+        float: right;
+        margin-right: 70px;
+    }
+    }    
+
+
